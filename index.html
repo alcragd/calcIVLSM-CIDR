@@ -28,7 +28,7 @@
       <section id="cidr-pane" class="tab-pane fade show active">
         <form id="cidr-form" class="row g-3">
           <div class="col-md-6"><label class="form-label" for="cidr-ip">Dirección IPv4</label><input id="cidr-ip"
-              class="form-control" value="" required></div>
+              class="form-control" placeholder="x.x.x.x" value="" required></div>
           <div class="col-md-3"><label class="form-label" for="cidr-prefix">Prefijo</label><input id="cidr-prefix"
               class="form-control" value="" placeholder="/n o n"></div>
           <div class="col-md-3"><label class="form-label" for="cidr-mask">Máscara (opcional)</label><input
@@ -46,7 +46,7 @@
         <form id="vlsm-form">
           <div class="row g-3 mb-3">
             <div class="col-md-6"><label class="form-label" for="vlsm-base">Red base</label><input id="vlsm-base"
-                class="form-control" value="" required></div>
+                class="form-control" placeholder="x.x.x.x/n" required></div>
           </div>
           <div id="subnet-rows"></div>
           <div class="d-flex gap-2 mt-3"><button class="btn btn-outline-primary" id="add-subnet" type="button">Añadir

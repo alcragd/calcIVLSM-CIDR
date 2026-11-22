@@ -1,0 +1,8 @@
+:root { --ink: #172033; }
+body { background: #f3f6fa; color: var(--ink); }
+.tab-content { min-height: 260px; }
+.address { font-family: ui-monospace, SFMono-Regular, Consolas, monospace; letter-spacing: .02em; }
+.binary { font-family: ui-monospace, SFMono-Regular, Consolas, monospace; font-size: .88rem; word-break: break-all; }
+.result-card { border-left: 4px solid #0d6efd; }
+.table th { white-space: nowrap; }
+.is-invalid { border-color: #dc3545 !important; }

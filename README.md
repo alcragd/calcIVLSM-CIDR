@@ -5,6 +5,7 @@ Aplicación estática en HTML5, CSS3, Bootstrap 5 y jQuery. No requiere Node.js 
 ## Uso
 
 Abrir `index.html` directamente en un navegador con conexión a internet.
+O directamente en [este enlace](https://alcragd.github.io/calcIVLSM-CIDR/)
 
 La pestaña **CIDR** acepta prefijo, máscara o ambos (si se proporcionan ambos deben ser consistentes). La pestaña **VLSM** ordena los requerimientos de mayor a menor, asigna bloques alineados y muestra espacio usado, restante y desperdicio.
 
